@@ -2,25 +2,40 @@ import React from "react";
 import "../css/Registro.css";
 
 function Registro() {
+  const clic = () => {
+    alert("Funciona el clic Registro");
+  };
   return (
-    <div className="contenedor">
-      <h1 className="titulo">Registro Actividades</h1>
+    <div className="contenedor-registro">
+      <h1 className="titulo-registro">Registro Actividades</h1>
       <div>
-        <form className="formulario">
+        <form className="formulario-registro">
           <input
-            className="input"
+            className="input-registro"
             type="text"
             placeholder="Nombre Usuario"
           ></input>
-          <input className="input" type="text" placeholder="Actividad"></input>
-          <input className="input" type="date" placeholder="Fecha"></input>
           <input
-            className="input"
+            className="input-registro"
+            type="text"
+            placeholder="Actividad"
+          ></input>
+          <input
+            className="input-registro"
+            type="date"
+            placeholder="Fecha"
+          ></input>
+          <input
+            className="input-registro"
             type="text"
             placeholder="Hora Inicio"
           ></input>
-          <input className="input" type="text" placeholder="Hora Final"></input>
-          <button className="boton" type="submit">
+          <input
+            className="input-registro"
+            type="text"
+            placeholder="Hora Final"
+          ></input>
+          <button className="boton-registro" type="submit" onClick={clic}>
             Registrar
           </button>
         </form>

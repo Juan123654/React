@@ -1,4 +1,9 @@
-.contenedor{
+.titulo-registro{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+}
+.contenedor-registro{
     width:300px;
 	padding:200px;
 	border-radius:10px;
@@ -9,7 +14,7 @@
     justify-content: center;
     font-size: 20px;
 }
-.input{
+.input-registro{
     width:300px;
     height: 50px;
 	padding:3px 10px;
@@ -21,12 +26,8 @@
     font-size: 20px;
     border: 1px solid;
 }
-.titulo{
-    position: absolute;
-    top: 300px;
-    text-align: center;
-}
-.boton{
+
+.boton-registro{
     display: flex;
     width:300px;
     height: 50px;
