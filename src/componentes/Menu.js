@@ -5,11 +5,14 @@ function Menu() {
   return (
     <div className="menu">
       <div>
-        <img
-          className="imagen"
-          src={require("../img/img.jpg")}
-          alt="imagen 1"
-        />
+        <Link>
+          <img
+            className="imagen"
+            to="/"
+            src={require("../img/logo192.png")}
+            alt="imagen 1"
+          />
+        </Link>
       </div>
       <div>
         <ul>
@@ -21,6 +24,11 @@ function Menu() {
           <li>
             <Link className="item" to="/registro">
               Registro Actividad
+            </Link>
+          </li>
+          <li>
+            <Link className="item" to="/consulta">
+              Consultar Registros
             </Link>
           </li>
         </ul>
