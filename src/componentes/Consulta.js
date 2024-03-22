@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Consulta.css";
 function Consulta() {
   const clic = () => {
-    alert("Funciona el clic Consulta");
+    alert("Consulta Prueba");
   };
   return (
     <div className="contenedor-consulta">

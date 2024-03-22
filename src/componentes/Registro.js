@@ -3,7 +3,7 @@ import "../css/Registro.css";
 
 function Registro() {
   const clic = () => {
-    alert("Funciona el clic Registro");
+    alert("Registro Prueba");
   };
   return (
     <div className="contenedor-registro">

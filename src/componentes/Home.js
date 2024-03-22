@@ -1,9 +1,15 @@
-import React from "react"
-
-function Home (){
+import React from "react";
+import "../css/Home.css";
+function Home() {
+  const fecha = new Date();
   return (
-    <div>
-        <h1>Este es el Home</h1>
+    <div className="contenedor-home">
+      <p>Actividad Alternativa</p>
+      <p>Juan Pablo Londoño Salinas</p>
+      <p>Desarrollo de Aplicaciones Web NRC-50518</p>
+      <p>Semana 2</p>
+      <p>Jonier Hernando Porras Duque </p>
+      <p>25/03/2024</p>
     </div>
   );
 }
