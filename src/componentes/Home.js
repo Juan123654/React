@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/Home.css";
 function Home() {
-  const fecha = new Date();
   return (
     <div className="contenedor-home">
       <p>Actividad Alternativa</p>
